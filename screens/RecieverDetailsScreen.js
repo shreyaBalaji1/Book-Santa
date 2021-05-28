@@ -17,7 +17,7 @@ export default class RecieverDetailsScreen extends Component{
       reason_for_requesting     : this.props.navigation.getParam('details')["reason_to_request"],
       recieverName    : '',
       recieverContact : '',
-      recieverAddress : '',
+      recieverAddress : '',                 
       recieverRequestDocId : ''
     }
   }
